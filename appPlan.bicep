@@ -14,4 +14,4 @@ resource appPlan 'Microsoft.Web/serverfarms@2022-09-01' = {
   }
 }
 
-output planId string = appPlan.id
+output planId string = appPlan.id #AppPlan
